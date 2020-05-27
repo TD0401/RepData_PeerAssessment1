@@ -114,5 +114,6 @@ xyplot(interval_data$steps ~ interval_data$interval | interval_data$day_type, ma
 
 ![](PA1_template_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
 
+### Conclusion
 From the above analysis we can tell that the people are more active on weekdays then weekends. But usually they are more active around during a certain interval throught out the day.
 
