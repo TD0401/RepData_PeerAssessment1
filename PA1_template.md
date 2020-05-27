@@ -42,7 +42,7 @@ my_summary
 ##      41    8841   10765   10766   13294   21194
 ```
 
-We found that the total mean steps taken per day is 1.0766189\times 10^{4} and the median of the data lies at 1.0765\times 10^{4}.
+We found that the total mean steps taken per day is 10766 and the median of the data lies at 10765.
 
 ### Average daily activity pattern
 We plotted a 5 min interval time series data for the average number of steps taken per day. We grouped the data by interval and took mean of steps of all days. But we removed the missing data.
@@ -97,7 +97,7 @@ my_summary
 ##      41    9819   11458   11694   15084   21194
 ```
 
-We found that the new total mean steps taken per day is 1.1693738\times 10^{4} and the new median of the data lies at 1.1458\times 10^{4}.
+We found that the new total mean steps taken per day is 11693 and the new median of the data lies at 11458.
 
 
 ### Differences in activity patterns between weekdays and weekends

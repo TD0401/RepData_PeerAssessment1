@@ -32,7 +32,7 @@ my_summary <- summary(per_day_data$totalSteps)
 my_summary
 ```
 
-We found that the total mean steps taken per day is `r my_summary["Mean"]` and the median of the data lies at `r my_summary["Median"]`.
+We found that the total mean steps taken per day is `r as.integer(my_summary["Mean"])` and the median of the data lies at `r as.integer(my_summary["Median"])`.
 
 ### Average daily activity pattern
 We plotted a 5 min interval time series data for the average number of steps taken per day. We grouped the data by interval and took mean of steps of all days. But we removed the missing data.
@@ -74,7 +74,7 @@ my_summary <- summary(per_day_data$totalSteps)
 my_summary
 ```
 
-We found that the new total mean steps taken per day is `r my_summary["Mean"]` and the new median of the data lies at `r my_summary["Median"]`.
+We found that the new total mean steps taken per day is `r as.integer(my_summary["Mean"])` and the new median of the data lies at `r as.integer(my_summary["Median"])`.
 
 
 ### Differences in activity patterns between weekdays and weekends
